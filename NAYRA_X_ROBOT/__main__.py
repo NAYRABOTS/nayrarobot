@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("PAKHIMUSIC.plugins" + all_module)
-    LOGGER("PAKHIMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("NAYRA_X_ROBOT.plugins" + all_module)
+    LOGGER("NAYRA_X_ROBOT.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
     await JARVIS.start()
     try:
         await JARVIS.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("PAKHIMUSIC").error(
+        LOGGER("NAYRA_X_ROBOT").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\nJARVIS� 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await JARVIS.decorators()
-    LOGGER("PAKHIMUSIC").info(
+    LOGGER("NAYRA_X_ROBOT").info(
         "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎𝐌𝐀𝐃𝐄 𝐁𝐘 𝐕𝐈𝐂𝐊𝐘 𝐂𝐇𝐎𝐔𝐃𝐇𝐀𝐑𝐘☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("PAKHIMUSIC").info("𝐒𝐓𝐎𝐏 𝐏𝐀𝐊𝐇𝐈 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ..")
+    LOGGER("NAYRA_X_ROBOT").info("𝐒𝐓𝐎𝐏 𝐏𝐀𝐊𝐇𝐈 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ..")
 
 
 if __name__ == "__main__":
